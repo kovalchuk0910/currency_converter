@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.App {
+    height: 500px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    height: 60px;
+}
+
+.inputsBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 255, 255);
+    height: 100%;
+}
+
+.inputs {
+    font-size: 15px;
+    width: 200px;
+    height: 30px;
+}
+
+.select {
+    background-color: rgb(35, 35, 35);
+    color: white;
+    width: 50px;
+    height: 100%;
+}
